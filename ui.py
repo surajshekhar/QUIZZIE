@@ -1,6 +1,6 @@
 from tkinter import *
 THEME_COLOR = "#375362"
-
+#ui changed
 
 class QuizUI:
     def __init__(self) :
@@ -24,6 +24,7 @@ class QuizUI:
         false_image=PhotoImage(file="images\false.png")
         self.false_button=Button(image=false_image,highlightthickness=0)
         self.false_button.grid(row=2,column=1)
+
 
 
 
